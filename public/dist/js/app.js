@@ -22416,6 +22416,108 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Auth/Login/Index.vue?vue&type=template&id=1c17fbae&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Auth/Login/Index.vue?vue&type=template&id=1c17fbae& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "w-full h-screen flex items-center justify-center" },
+      [
+        _c("form", { staticClass: "w-full md:w-1/3 bg-white rounded-lg" }, [
+          _c("div", { staticClass: "flex font-bold justify-center mt-6" }, [
+            _c("img", {
+              staticClass: "h-20 w-20",
+              attrs: {
+                src:
+                  "https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/master/img/avatar.svg"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "text-3xl text-center text-gray-700 mb-4" }, [
+            _vm._v("Login Form")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "px-12 pb-10" }, [
+            _c("div", { staticClass: "w-full mb-2" }, [
+              _c("div", { staticClass: "flex items-center" }, [
+                _c("i", {
+                  staticClass:
+                    "ml-3 fill-current text-gray-400 text-xs z-10 fas fa-user"
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass:
+                    "-mx-6 px-8 w-full border rounded px-3 py-2 text-gray-700 focus:outline-none",
+                  attrs: { type: "text", placeholder: "Username" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "w-full mb-2" }, [
+              _c("div", { staticClass: "flex items-center" }, [
+                _c("i", {
+                  staticClass:
+                    "ml-3 fill-current text-gray-400 text-xs z-10 fas fa-lock"
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass:
+                    "-mx-6 px-8 w-full border rounded px-3 py-2 text-gray-700 focus:outline-none",
+                  attrs: { type: "text", placeholder: "Password" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "text-xs text-gray-500 float-right mb-4",
+                attrs: { href: "#" }
+              },
+              [_vm._v("Forgot Password ?")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass:
+                  "w-full py-2 rounded-full bg-green-600 text-gray-100 focus:outline-none",
+                attrs: { type: "submit" }
+              },
+              [_vm._v("\n        Login\n      ")]
+            )
+          ])
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -34640,17 +34742,18 @@ webpackContext.id = "./resources/js/Pages sync recursive ^\\.\\/.*$";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
+/* harmony import */ var _Index_vue_vue_type_template_id_1c17fbae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Index.vue?vue&type=template&id=1c17fbae& */ "./resources/js/Pages/Auth/Login/Index.vue?vue&type=template&id=1c17fbae&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
   script,
-  render,
-  staticRenderFns,
+  _Index_vue_vue_type_template_id_1c17fbae___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Index_vue_vue_type_template_id_1c17fbae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -34658,8 +34761,28 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   
 )
 
+/* hot reload */
+if (false) { var api; }
 component.options.__file = "resources/js/Pages/Auth/Login/Index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Auth/Login/Index.vue?vue&type=template&id=1c17fbae&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/Pages/Auth/Login/Index.vue?vue&type=template&id=1c17fbae& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_template_id_1c17fbae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Index.vue?vue&type=template&id=1c17fbae& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Auth/Login/Index.vue?vue&type=template&id=1c17fbae&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_template_id_1c17fbae___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_template_id_1c17fbae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 

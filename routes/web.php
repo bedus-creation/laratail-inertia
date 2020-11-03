@@ -1,5 +1,7 @@
 <?php
 
+use App\Application\Auth\Controllers\LoginController;
+use App\Application\User\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('users', UserController::class);
+// Route::get("login", [LoginController::class]);
