@@ -6,6 +6,9 @@ require("@/Utils/Flash");
 
 Vue.use(plugin)
 
+// Components
+Vue.component('FileInput', () => import('@/Components/FileInput'));
+
 const el = document.getElementById('app')
 
 new Vue({
