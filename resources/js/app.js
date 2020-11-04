@@ -1,7 +1,8 @@
 require('./bootstrap');
 
 import { App, plugin } from '@inertiajs/inertia-vue'
-import Vue from 'vue'
+import Vue from 'vue';
+require("@/Utils/Flash");
 
 Vue.use(plugin)
 
